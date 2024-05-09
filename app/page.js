@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import styles from './page.module.css'
 
 export default async function Home() {
   return (
@@ -8,17 +6,17 @@ export default async function Home() {
   <meta charset="UTF-8"></meta>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
   <link rel="stylesheet" href="styles.css"></link>
-  <title>My Personal Homepage</title>
+  <title>Logan Sarsfield</title>
 </head>
 <body>
   <header class="header">
     <h1 class="name">Logan Sarsfield</h1>
-    <p class="tagline"> Major in Data Science</p>
+    <p class="tagline"> Major in Computer Science</p>
   </header>
 
   <section class="about">
     <h2>About Me</h2>
-    <p>My name is Logan Sarsfield, and I am a senior at Indiana University majoring in computer science with a focus in data science, and minoring in marketing.
+    <p>My name is Logan Sarsfield, and I am a graduate from Indiana University Bloomington, majoring in computer science with a focus in data science, and minoring in marketing.
         I </p>
   </section>
 
@@ -49,7 +47,7 @@ export default async function Home() {
   </section>
 
   <footer class="footer">
-    <p>&copy; 2023 Logan Sarsfield. All rights reserved.</p>
+    <p>&copy; 2024 Logan Sarsfield. All rights reserved.</p>
   </footer>
 </body>
 </html>
