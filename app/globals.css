@@ -94,10 +94,17 @@ body {
 }
 
 .header {
-  background-image: linear-gradient(to bottom right, rgb(16, 17, 44), rgb(15, 16, 94));
+  background-image: linear-gradient(to bottom right, rgb(16, 17, 44), rgb(20, 20, 34));
   color: #fff;
   text-align: center;
-  padding: 2rem;
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  margin-right: 20px;
 }
 
 .name {
@@ -105,12 +112,22 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.tagline {
-  font-size: 1.2rem;
+.headerText {
+  display: flex;
+  flex-direction: column;
 }
 
 .about, .portfolio {
   padding: 2rem;
+}
+
+.paraText {
+  width: 70%;
+  margin: 0;
+}
+
+.date {
+  font-size: small;
 }
 
 .about h2, .portfolio h2 {
@@ -125,6 +142,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
+  background-color: #1d1d1d;
 }
 
 .project h3 {
@@ -140,6 +158,7 @@ body {
   margin-left: 100px;
   margin-top: 10px;
   margin-bottom: 20px;
+  width: 50%;
 }
 
 ul {
