@@ -135,6 +135,14 @@ body {
   margin-bottom: 1rem;
 }
 
+.gitLink {
+  color: white;
+}
+
+.gitLink:hover {
+  color: #c7c7c7;
+}
+
 .project {
   border: 1px solid #ccc;
   padding: 1rem;
@@ -143,6 +151,20 @@ body {
   grid-template-columns: 1fr;
   gap: 1rem;
   background-color: #1d1d1d;
+  width: 70%;
+  position: relative;
+}
+
+.projectLink {
+  text-decoration: none;
+  color: #acacac;
+  position: absolute;
+  right: 1%;
+  bottom: 1%;
+}
+
+.projectLink:hover {
+  color: #7c7c7c;
 }
 
 .project h3 {

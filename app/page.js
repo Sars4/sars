@@ -29,15 +29,21 @@ module.exports = async function Home() {
 
         <section class="portfolio">
           <h2>Projects</h2>
+          <p>These are just two examples of projects that I have worked on, more can be found on my <a href="https://github.com/Sars4?tab=repositories" class="gitLink">github</a></p>
+          <a></a>
           <div class="project">
-            <img src="/project1.png" alt="Project 1"></img>
+            {/* image placeholder: <img src="/project1.png" alt="Project 1"></img> */}
             <h3>Stock Data</h3>
-            <p class="paraText">Description</p>
+            <p class="paraText">This project uses yahoo finance to search for stocks by their ticker name and add it to an excel file where it is then read and plotted. It also looks to predict future values by using
+            regression and provides other statistics according to what it finds.</p>
+            <a class="projectLink" href="https://github.com/Sars4/stockData">See more &#11166;</a>
           </div>
           <div class="project">
-            <img src="/project2.jpg" alt="Project 2"></img>
+            {/* image placeholder: <img src="/project1.png" alt="Project 1"></img> */}
             <h3>VEX Manipulation</h3>
-            <p class="paraText">Description</p>
+            <p class="paraText">This project uses VEX to create a robotic arm with two joints and autonomously picks up a limited number of cans in a row and throws them behind itself. The project consists of a mechanical design and
+            software design in which both had to be built.</p>
+            <a class="projectLink" href="https://github.com/Sars4/CanGrabber">See more &#11166;</a>
           </div>
         </section>
 
