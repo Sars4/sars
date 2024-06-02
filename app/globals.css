@@ -137,10 +137,15 @@ body {
 
 .gitLink {
   color: white;
+  text-decoration-line: none;
+}
+
+p {
+  color: rgb(173, 173, 173);
 }
 
 .gitLink:hover {
-  color: #c7c7c7;
+  color: #bdbdbd;
 }
 
 .project {
@@ -153,6 +158,12 @@ body {
   background-color: #1d1d1d;
   width: 70%;
   position: relative;
+  border-radius: 10px;
+}
+
+.projectImg {
+  height: 400px;
+  width: 400px;
 }
 
 .projectLink {
@@ -191,7 +202,11 @@ ul {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 1rem;
+  padding: 0.25rem;
+}
+
+.copyright {
+  font-size: small;
 }
 
 @media (prefers-color-scheme: dark) {

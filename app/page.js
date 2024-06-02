@@ -21,18 +21,19 @@ module.exports = async function Home() {
 
         <section class="about">
           <h2>About Me</h2>
-          <p class="paraText">My name is Logan Sarsfield and I am a graduate from Indiana University Bloomington, I majored in computer science with a focus in data science and minored in marketing.
-          I have currently focused in sales related jobs with two internships revolving around this. I find the intersection between data analysis and marketing to be interesting and thus I explored both
-          sides of each field. I also have an interest in AI and machine learning, as they both use data to find patterns and make predictions.
+          <p class="paraText">My name is <b>Logan Sarsfield</b> and I am a graduate from Indiana University Bloomington with a major in computer science concentrated in data science and a minor in marketing.
+          Data is something that I find very fascinating and the things that can be interperted from it and the insights that can found in it are what interests me the most. I find the intersection between 
+          data analysis/ data science and marketing to be interesting and thus I want to explore both sides of each field. I also have an interest in AI and machine learning, as they both use data to find patterns
+           and make predictions based on data, especially since the growth that can be seen from ChatGPT 3.5 to 4.0 and now 4o.
           </p>
         </section>
 
         <section class="portfolio">
           <h2>Projects</h2>
-          <p>These are just two examples of projects that I have worked on, more can be found on my <a href="https://github.com/Sars4?tab=repositories" class="gitLink">github</a></p>
+          <p>These are just two examples of projects that I have worked on, more can be found on my <a href="https://github.com/Sars4?tab=repositories" class="gitLink">github</a>, like the code for this website.</p>
           <a></a>
           <div class="project">
-            {/* image placeholder: <img src="/project1.png" alt="Project 1"></img> */}
+            <img class="projectImg" src="/StockPic.JPG" alt="Project 1"></img>
             <h3>Stock Data</h3>
             <p class="paraText">This project uses yahoo finance to search for stocks by their ticker name and add it to an excel file where it is then read and plotted. It also looks to predict future values by using
             regression and provides other statistics according to what it finds.</p>
@@ -66,7 +67,7 @@ module.exports = async function Home() {
         </section>
 
         <footer class="footer">
-          <p>&copy; 2024 Logan Sarsfield. All rights reserved.</p>
+          <p class="copyright">&copy; 2024 Logan Sarsfield. All rights reserved.</p>
         </footer>
       </body>
     </html>
