@@ -33,7 +33,7 @@ module.exports = async function Home() {
           <p>These are just two examples of projects that I have worked on, more can be found on my <a href="https://github.com/Sars4?tab=repositories" class="gitLink">github</a>, like the code for this website.</p>
           <a></a>
           <div class="project">
-            <img class="projectImg" src="/StockPic.JPG" alt="Project 1"></img>
+            {/*<img class="projectImg" src="/StockPic.JPG" alt="Project 1"></img>*/}
             <h3>Stock Data</h3>
             <p class="paraText">This project uses yahoo finance to search for stocks by their ticker name and add it to an excel file where it is then read and plotted. It also looks to predict future values by using
             regression and provides other statistics according to what it finds.</p>
